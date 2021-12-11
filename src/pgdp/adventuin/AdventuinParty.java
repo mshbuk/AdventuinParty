@@ -3,8 +3,8 @@ package pgdp.adventuin;
 import pgdp.color.RgbColor;
 
 public final class AdventuinParty {
-   /*private final String name;
-   private final int height;
+   private final String name;
+   private final int size;
    private final RgbColor color;
    private final HatType hat;
    private final Language language;
@@ -14,7 +14,7 @@ public final class AdventuinParty {
    }
 
    public int getHeight() {
-      return height;
+      return size;
    }
 
    public RgbColor getColor() {
@@ -29,9 +29,9 @@ public final class AdventuinParty {
       return language;
    }
 
-   public AdventuinParty(String name, int height, RgbColor color, HatType hat, Language language) {
+   public AdventuinParty(String name, int size, RgbColor color, HatType hat, Language language) {
       this.name = name;
-      this.height = height;
+      this.size = size;
       this.color = color;
       this.hat = hat;
       this.language = language;
@@ -39,14 +39,14 @@ public final class AdventuinParty {
 
    @Override
    public String toString() {
-      if(name == null || height == 0 || color == null || hat == null || language == null)
+      if(name == null || size == 0 || color == null || hat == null || language == null)
          return "Not allowed";
       return "name='" + name +
-              ", height=" + height +
+              ", height=" + size +
               ", color=" + color +
               ", hat=" + hat +
               ", language=" + language;
    }
-*/
+
 
 }
