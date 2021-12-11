@@ -3,7 +3,7 @@ package pgdp.adventuin;
 import pgdp.color.RgbColor;
 
 public final class AdventuinParty {
-   private final String name;
+   /*private final String name;
    private final int height;
    private final RgbColor color;
    private final HatType hat;
@@ -47,4 +47,6 @@ public final class AdventuinParty {
               ", hat=" + hat +
               ", language=" + language;
    }
+*/
+
 }
