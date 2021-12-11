@@ -4,7 +4,7 @@ import pgdp.color.RgbColor;
 
 public class Adventuin {
     private final String name;
-    private final int size;
+    private final int height;
     private final RgbColor color;
     private final HatType hat;
     private final Language language;
@@ -13,15 +13,15 @@ public class Adventuin {
         return name;
     }
 
-    public int getSize() {
-        return size;
+    public int getHeight() {
+        return height;
     }
 
     public RgbColor getColor() {
         return color;
     }
 
-    public HatType getHat() {
+    public HatType getHatType() {
         return hat;
     }
 
@@ -29,9 +29,9 @@ public class Adventuin {
         return language;
     }
 
-    public Adventuin(String name, int size, RgbColor color, HatType hat, Language language) {
+    public Adventuin(String name, int height, RgbColor color, HatType hat, Language language) {
         this.name = name;
-        this.size = size;
+        this.height = height;
         this.color = color;
         this.hat = hat;
         this.language = language;
@@ -39,10 +39,10 @@ public class Adventuin {
 
     @Override
     public String toString() {
-        if(name == null || size == 0 || color == null || hat == null || language == null)
+        if(name == null || height == 0 || color == null || hat == null || language == null)
             return "Not allowed";
         return "name='" + name +
-                ", size=" + size +
+                ", height=" + height +
                 ", color=" + color +
                 ", hat=" + hat +
                 ", language=" + language;
