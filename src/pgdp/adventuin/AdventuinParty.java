@@ -49,7 +49,7 @@ public final class AdventuinParty {
         Map<Integer, Double> map = new HashMap<>();
       return  map;
     }
-    public static Map<HatType, Double> getDiffOfAvgHeightDiffsToPredecessorByHatType (){
+    public static Map<HatType, Double> getDiffOfAvgHeightDiffsToPredecessorByHatType (List<Adventuin> allAdventuins){
         return null;
     }
 
